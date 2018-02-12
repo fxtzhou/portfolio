@@ -1,0 +1,141 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+div {
+  width: 1200px;
+  height: 1682px;
+  margin: auto;
+  background-color: #e1e1e1;
+}
+
+header {
+  background: url(images/header.jpg) top no-repeat;
+  height: 264px;
+}
+
+nav {
+  margin: 0px 0px 100px 0px;
+}
+
+aside {
+  font-family: 'Bodoni 72 SmallCaps', sans-serif;
+  font-size: 24px;
+  color: #58341e;
+  padding: 25px;
+}
+
+header h1 {
+  font-family: 'Bodoni 72 SmallCaps', sans-serif;
+  color: #fff;
+  font-size: 100px;
+  text-align: center;
+  padding: 73px;
+}
+
+article {
+  min-height: 1000px;
+  padding: 15px 50px 15px 50px;
+}
+
+footer {
+  height: 250px;
+  background-color: #f6e7e1;
+  font-family: 'Bodoni 72', sans-serif;
+  color: #a08676;
+  font-size: 25px;
+}
+
+footer img {
+  position: absolute;
+}
+
+footer h2 {
+  font-family: 'Bodoni 72 Smallcaps', sans-serif;
+  font-size: 40px;
+  text-decoration: underline;
+  color: #a08676;
+  padding-top: 5px;
+}
+
+footer p {
+  font-size: 14px;
+  color: #58341e;
+}
+
+.icons {
+  font-size: 40px;
+  color: #a08676;
+}
+
+article img {
+  float: right;
+  max-width: 500px;
+}
+
+article h2, h3, p {
+  font-family: 'Bodoni 72', sans-serif;
+  max-height: 300px;
+}
+
+article h2, a {
+  color: #58341e;
+  padding: 5px 0px 5px 0px;
+  font-size: 30px;
+  max-width: 495px;
+}
+
+article h3 {
+  padding: 10px 50px;
+  color: #a77658;
+  font-size: 24px;
+}
+
+article p {
+  margin: auto;
+  max-width: 1000px;
+  font-size: 20px;
+  line-height: 24px;
+  text-indent: 20px;
+  padding: 5px;
+}
+
+article a {
+  margin: auto;
+  max-width: 1000px;
+  padding: 50px;
+}
+
+a {
+  color: #58341e;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #606060;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+nav li a {
+  box-sizing: border-box;
+  text-decoration: none;
+  width: 33.33%;
+  float: left;
+  color: #58341e;
+  font-family: 'Bodoni 72 Smallcaps', sans-serif;
+  font-size: 30px;
+  text-align: center;
+  letter-spacing: 1px;
+  line-height: 40px;
+  margin: auto;
+  border-right: 2px solid #a77658;
+  border-bottom: 2px solid #a77658;
+}

@@ -1,0 +1,249 @@
+/* Fiona Zhou // DES 157 // Studio 2 */
+
+/********** MOBILE ************/
+
+@media screen and (max-width: 768px) {
+  h1 {
+    font-family: "Berkshire Swash", sans-serif;
+    margin-top: 15%;
+    margin-bottom: -1%;
+    font-size: 64px;
+    text-align: center;
+    color: #4c1a18;
+  }
+  h2 {
+    font-family: "Berkshire Swash", sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color: #9c2a27;
+    padding-bottom: 2px;
+  }
+  h3 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+    font-size: 10px;
+    text-align: center;
+    padding-bottom: 5%;
+    color: white;
+    text-transform: uppercase;
+  }
+  #container {
+    margin-left: 10%;
+  }
+  #planner {
+    position: absolute;
+    margin: auto;
+  }
+  #planner:hover {
+    transform: scale(1.1);
+  }
+  #tarot {
+    position: relative;
+    left: 340px;
+    top: 75px;
+  }
+  #tarot:hover {
+    transform: scale(1.1);
+  }
+  #tape {
+    position: relative;
+    top: 130px;
+    left: 90px;
+  }
+  #tape:hover {
+    transform: scale(1.1);
+  }
+  footer {
+    font-size: 10px;
+    padding-bottom: 5%;
+  }
+  /* mobile overlay*/
+  #overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: white;
+  }
+  #overlayc {
+    position: absolute;
+    left: 50%;
+    width: 500px;
+    max-width: 50%;
+    height: auto;
+  }
+  #obj img {
+    max-height: 300px;
+    float: left;
+    margin-left: 20%;
+    margin-top: 10%;
+  }
+  #title {
+    position: absolute;
+    text-align: center;
+    font-family: 'Berkshire Swash', sans-serif;
+    font-size: 40px;
+    margin-top: 28%;
+    margin-left: 15%;
+    color: #9c2a27;
+  }
+  #info {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    max-width: 200px;
+    text-align: center;
+    margin-top: 40%;
+    margin-left: 15%;
+  }
+  #close {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    top: 80px;
+    right: 100px;
+  }
+}
+
+/********** DESKTOP ***********/
+
+@media screen and (min-width: 769px) {
+  h1 {
+    font-family: "Berkshire Swash", sans-serif;
+    margin-top: 5%;
+    margin-bottom: -1%;
+    font-size: 100px;
+    text-align: center;
+    color: #4c1a18;
+  }
+  h2 {
+    font-family: "Berkshire Swash", sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #9c2a27;
+    padding-bottom: 5px;
+  }
+  h3 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 5%;
+    color: white;
+    text-transform: uppercase;
+  }
+  #container {
+    margin-left: 10%;
+  }
+  #container img {
+    cursor: pointer;
+  }
+  #planner {
+    position: absolute;
+    margin-left: 14%;
+  }
+  #planner:hover {
+    transform: scale(1.1);
+  }
+  #tarot {
+    position: relative;
+    left: 540px;
+    top: 75px;
+  }
+  #tarot:hover {
+    transform: scale(1.1);
+  }
+  #tape {
+    position: relative;
+    top: 130px;
+    left: 290px;
+  }
+  #tape:hover {
+    transform: scale(1.1);
+  }
+  footer {
+    font-size: 10px;
+    padding-bottom: 5%;
+  }
+  /* mobile overlay*/
+  #overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #9e6b5c;
+  }
+  #overlayc {
+    position: absolute;
+    left: 50%;
+    width: 500px;
+    max-width: 50%;
+    height: auto;
+  }
+  #obj img {
+    max-height: 400px;
+    float: left;
+    margin-left: 30%;
+    margin-top: 10%;
+  }
+  #title {
+    position: absolute;
+    text-align: center;
+    font-family: 'Berkshire Swash', sans-serif;
+    font-size: 40px;
+    margin-top: 28%;
+    margin-left: 17%;
+    color: #9c2a27;
+  }
+  #info {
+    position: relative;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+    font-size: 16px;
+    max-width: 200px;
+    text-align: center;
+    margin-top: 37%;
+    margin-left: 17%;
+  }
+  #close {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    top: 80px;
+    right: 100px;
+    cursor: pointer;
+  }
+}
+
+/********* GENERAL STYLES **********/
+
+body {
+  background-color: #9e6b5c;
+}
+
+footer {
+  clear: both;
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+a:hover {
+  color: white;
+}
+
+a {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 14px;
+  color: #000;
+  vertical-align: middle;
+  text-decoration: none;
+}
