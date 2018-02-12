@@ -12,6 +12,11 @@ header {
   background-color: #fff;
 }
 
+#landing {
+  margin: auto;
+  padding-left: 125px;
+}
+
 div {
   margin: auto;
   width: 80%;
@@ -23,19 +28,28 @@ div {
 
 /*Works*/
 
+#works{
+  margin: auto;
+  width: 80%;
+}
+
+
+article img:hover{
+    transform: scale(1.1);
+  }
+
 section {
   margin: auto;
   width: 60%;
 }
 
-article {
+article img{
   margin: auto;
-  width: 50%;
+  float: left;
+  width: 15%;
+  padding: 10px;
 }
 
-section img {
-  float: left;
-}
 
 .img-circle {
   border-radius: 50%;
@@ -116,6 +130,22 @@ h2 {
   font-weight: lighter;
   text-transform: uppercase;
   font-size: 35px;
+}
+
+h3 {
+  color: #7d7865;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 25px;
+}
+
+h4 {
+  color: #7d7865;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 16px;
 }
 
 p {
