@@ -1,0 +1,161 @@
+* {
+  box-sizing: border-box;
+}
+
+
+/*Landing*/
+
+header {
+  margin: auto;
+  padding: 50px;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+div {
+  margin: auto;
+  width: 80%;
+}
+
+.bold {
+  color: #7d7865;
+}
+
+/*Works*/
+
+section {
+  margin: auto;
+  width: 60%;
+}
+
+article {
+  margin: auto;
+  width: 50%;
+}
+
+section img {
+  float: left;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+footer {
+  background-color: #7d7865;
+  clear: both;
+  text-align: center;
+  vertical-align: middle;
+  position: fixed;
+  bottom: 0px;
+  width: 100%;
+}
+
+nav img {
+  position: absolute;
+  margin: auto;
+  left: 200px;
+}
+
+nav ul {
+  list-style-type: none;
+  overflow: hidden;
+  position: relative;
+  left: 250px;
+}
+
+nav li {
+  position: relative;
+  float: left;
+  width: 15%;
+}
+
+nav ul li a {
+  text-decoration: none;
+  font-family: 'Barlow', san-serif;
+  color: #000;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  height: 50px;
+  line-height: 50px;
+  background-color: #fff;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+  color: #7d7865;
+}
+
+
+/* Typography */
+
+body {
+  font-family: 'Helvetica', sans-serif;
+}
+
+h1 {
+  text-decoration: none;
+  color: #000;
+  padding: 100px;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  font-size: 35px;
+  line-height: 60px;
+}
+
+h1 a {
+  text-decoration: none;
+  color: #7d7865;
+}
+
+h2 {
+  color: #7d7865;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 35px;
+}
+
+p {
+  color: #000;
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  font-size: 18px;
+}
+
+a {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  text-transform: uppercase;
+  font-size: 13px;
+  text-decoration: none;
+  color: #000;
+}
+
+
+/* Responsive */
+
+/* @media only screen and (max-width: 800px) {
+  header {
+    margin: none;
+    width: 10%;
+    height: 100px;
+  }
+  nav {
+    margin: none;
+        width: 10%;
+  }
+
+  h1 {
+    margin: none;
+    width: 10%;
+  }
+
+article {
+  float: none;
+margin: none;
+padding: 0px;
+}
+} */
