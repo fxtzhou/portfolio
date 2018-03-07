@@ -1,5 +1,3 @@
-//Fiona Zhou // DES 157 // Studio 2
-
 "use strict";
 
 console.log('reading');

@@ -1,225 +1,4 @@
-/* Fiona Zhou // DES 157 // Studio 2 */
-
-/********** MOBILE ************/
-
-@media screen and (max-width: 768px) {
-  h1 {
-    font-family: "Berkshire Swash", sans-serif;
-    margin-top: 15%;
-    margin-bottom: -1%;
-    font-size: 64px;
-    text-align: center;
-    color: #4c1a18;
-  }
-  h2 {
-    font-family: "Berkshire Swash", sans-serif;
-    font-size: 30px;
-    text-align: center;
-    color: #9c2a27;
-    padding-bottom: 2px;
-  }
-  h3 {
-    font-family: 'Helvetica', sans-serif;
-    font-weight: lighter;
-    font-size: 10px;
-    text-align: center;
-    padding-bottom: 5%;
-    color: white;
-    text-transform: uppercase;
-  }
-  #container {
-    margin-left: 10%;
-  }
-  #planner {
-    position: absolute;
-    margin: auto;
-  }
-  #planner:hover {
-    transform: scale(1.1);
-  }
-  #tarot {
-    position: relative;
-    left: 340px;
-    top: 75px;
-  }
-  #tarot:hover {
-    transform: scale(1.1);
-  }
-  #tape {
-    position: relative;
-    top: 130px;
-    left: 90px;
-  }
-  #tape:hover {
-    transform: scale(1.1);
-  }
-  footer {
-    font-size: 10px;
-    padding-bottom: 5%;
-  }
-  /* mobile overlay*/
-  #overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    background-color: white;
-  }
-  #overlayc {
-    position: absolute;
-    left: 50%;
-    width: 500px;
-    max-width: 50%;
-    height: auto;
-  }
-  #obj img {
-    max-height: 300px;
-    float: left;
-    margin-left: 20%;
-    margin-top: 10%;
-  }
-  #title {
-    position: absolute;
-    text-align: center;
-    font-family: 'Berkshire Swash', sans-serif;
-    font-size: 40px;
-    margin-top: 28%;
-    margin-left: 15%;
-    color: #9c2a27;
-  }
-  #info {
-    font-family: 'Helvetica', sans-serif;
-    font-weight: lighter;
-    font-size: 14px;
-    max-width: 200px;
-    text-align: center;
-    margin-top: 40%;
-    margin-left: 15%;
-  }
-  #close {
-    position: absolute;
-    font-size: 30px;
-    color: white;
-    top: 80px;
-    right: 100px;
-  }
-}
-
-/********** DESKTOP ***********/
-
-@media screen and (min-width: 769px) {
-  h1 {
-    font-family: "Berkshire Swash", sans-serif;
-    margin-top: 5%;
-    margin-bottom: -1%;
-    font-size: 100px;
-    text-align: center;
-    color: #4c1a18;
-  }
-  h2 {
-    font-family: "Berkshire Swash", sans-serif;
-    font-size: 40px;
-    text-align: center;
-    color: #9c2a27;
-    padding-bottom: 5px;
-  }
-  h3 {
-    font-family: 'Helvetica', sans-serif;
-    font-weight: lighter;
-    font-size: 14px;
-    text-align: center;
-    padding-bottom: 5%;
-    color: white;
-    text-transform: uppercase;
-  }
-  #container {
-    margin-left: 10%;
-  }
-  #container img {
-    cursor: pointer;
-  }
-  #planner {
-    position: absolute;
-    margin-left: 14%;
-  }
-  #planner:hover {
-    transform: scale(1.1);
-  }
-  #tarot {
-    position: relative;
-    left: 540px;
-    top: 75px;
-  }
-  #tarot:hover {
-    transform: scale(1.1);
-  }
-  #tape {
-    position: relative;
-    top: 130px;
-    left: 290px;
-  }
-  #tape:hover {
-    transform: scale(1.1);
-  }
-  footer {
-    font-size: 10px;
-    padding-bottom: 5%;
-  }
-  /* mobile overlay*/
-  #overlay {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    display: none;
-    background-color: #9e6b5c;
-  }
-  #overlayc {
-    position: absolute;
-    left: 50%;
-    width: 500px;
-    max-width: 50%;
-    height: auto;
-  }
-  #obj img {
-    max-height: 400px;
-    float: left;
-    margin-left: 30%;
-    margin-top: 10%;
-  }
-  #title {
-    position: absolute;
-    text-align: center;
-    font-family: 'Berkshire Swash', sans-serif;
-    font-size: 40px;
-    margin-top: 28%;
-    margin-left: 17%;
-    color: #9c2a27;
-  }
-  #info {
-    position: relative;
-    font-family: 'Helvetica', sans-serif;
-    font-weight: lighter;
-    font-size: 16px;
-    max-width: 200px;
-    text-align: center;
-    margin-top: 37%;
-    margin-left: 17%;
-  }
-  #close {
-    position: absolute;
-    font-size: 30px;
-    color: white;
-    top: 80px;
-    right: 100px;
-    cursor: pointer;
-  }
-}
-
-/********* GENERAL STYLES **********/
+/* ******** GENERAL STYLES **********/
 
 body {
   background-color: #9e6b5c;
@@ -246,4 +25,216 @@ a {
   color: #000;
   vertical-align: middle;
   text-decoration: none;
+}
+
+/* mobile */
+
+@media only screen and (max-width: 768px) {
+  h1 {
+    font-family: "Berkshire Swash", sans-serif;
+    margin-top: 5%;
+    margin-bottom: -1%;
+    font-size: 10vw;
+    text-align: center;
+    color: #4c1a18;
+  }
+  h2 {
+    font-family: "Berkshire Swash", sans-serif;
+    font-size: 5vw;
+    text-align: center;
+    color: #9c2a27;
+    padding-bottom: 5px;
+  }
+  h3 {
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+    font-size: 14px;
+    text-align: center;
+    padding-bottom: 5%;
+    color: white;
+    text-transform: uppercase;
+  }
+  #container {
+    margin: auto;
+    width: 65%;
+  }
+  #container img {
+    text-align: center;
+    width: 100%;
+    cursor: pointer;
+  }
+  footer {
+    background-color: #9c2a27;
+    font-size: 12px;
+    height: 25px;
+    margin: 0 auto;
+  }
+  /* mobile overlay*/
+  #overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    display: none;
+    background-color: #9e6b5c;
+  }
+  #overlayc {
+    position: absolute;
+    left: 50%;
+    max-width: 400px;
+    height: auto;
+  }
+  #obj img {
+    margin-left: 10px;
+    margin-top: 20%;
+    max-width: 45%;
+  }
+  #title {
+    margin-top: 20%;
+    text-align: center;
+    font-family: 'Berkshire Swash', sans-serif;
+    font-size: 32px;
+    color: #9c2a27;
+  }
+  #info {
+    margin-right: 10px;
+    font-family: 'Helvetica', sans-serif;
+    font-weight: lighter;
+    font-size: 18px;
+    text-align: center;
+  }
+  #close {
+    position: absolute;
+    font-size: 30px;
+    color: white;
+    top: 10px;
+    left: 175px;
+    cursor: pointer;
+  }
+}
+
+/* desktop */
+
+h1 {
+  font-family: "Berkshire Swash", sans-serif;
+  margin: auto;
+  margin-bottom: -3%;
+  font-size: 72px;
+  text-align: center;
+  color: #4c1a18;
+}
+
+h2 {
+  font-family: "Berkshire Swash", sans-serif;
+  font-size: 36px;
+  text-align: center;
+  color: #9c2a27;
+  margin-bottom: -2px;
+}
+
+h3 {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  font-size: 10px;
+  text-align: center;
+  padding-bottom: 5%;
+  color: white;
+  text-transform: uppercase;
+}
+
+#container {
+  margin: auto;
+  width: 50%;
+}
+
+#container img {
+  text-align: center;
+  cursor: pointer;
+}
+
+#planner {
+  float: left;
+}
+
+#planner:hover {
+  transform: scale(1.1);
+}
+
+#tarot {
+  padding-top: 50px;
+}
+
+#tarot:hover {
+  transform: scale(1.1);
+}
+
+#tape {
+  margin: auto;
+}
+
+#tape:hover {
+  transform: scale(1.1);
+}
+
+footer {
+  margin: 0 auto;
+  position: fixed;
+  font-size: 10px;
+  background-color: #9c2a27;
+}
+
+/*desktop overlay*/
+
+#overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: none;
+  background-color: #9e6b5c;
+}
+
+#overlayc {
+  position: absolute;
+  left: 50%;
+  width: 500px;
+  max-width: 50%;
+  height: auto;
+}
+
+#obj img {
+  float: left;
+  max-height: 300px;
+  margin-left: 30%;
+  margin-top: 10%;
+}
+
+#title {
+  position: absolute;
+  text-align: center;
+  font-family: 'Berkshire Swash', sans-serif;
+  font-size: 40px;
+  margin-top: 28%;
+  margin-left: 15%;
+  color: #9c2a27;
+}
+
+#info {
+  font-family: 'Helvetica', sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  max-width: 200px;
+  text-align: center;
+  margin-top: 40%;
+  margin-left: 15%;
+}
+
+#close {
+  position: absolute;
+  font-size: 30px;
+  color: white;
+  top: 80px;
+  right: 100px;
 }
