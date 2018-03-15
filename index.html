@@ -1,52 +1,108 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
 
 <head>
-  <meta charset="UTF-8">
-  <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.0/normalize.min.css" rel="stylesheet" />
-  <link href="https://fonts.googleapis.com/css?family=Barlow|Barlow+Condensed|Barlow+Semi+Condensed|Pontano+Sans|Quicksand|News+Cycle" rel="stylesheet">
-  <link href="styles.css" style type="text/css" rel="stylesheet">
-  <title>Fiona Zhou</title>
+	<meta charset="utf-8">
+	<title>Fiona Zhou</title>
+	<meta name="viewport" content="width=device-width , initial-scale= 1.0">
+	<link href="https://cdn.jsdelivr.net/npm/normalize.css@7.0.0/normalize.min.css" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Roboto:400:700|Rock+Salt" rel="stylesheet">
+	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
+	<link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
+	<script type="text/javascript" src="onepagescroll.js"></script>
+	<link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
+	<script src="canvasjs.min.js"></script>
+	<link href='styles.css' rel='stylesheet'>
+
 </head>
 
-
 <body>
+	<nav role="navigation">
+		<div id="menuToggle">
 
-  <nav id="container">
-    <nav>
-      <ul>
+			<input type="checkbox">
+			<span></span>
+			<span></span>
+			<span></span>
 
-        <li><a href="index.html">Home</a></li>
-        <li><a href="profile.html">About</a></li>
-        <li><a href="works.html">Works</a></li>
-        <li><a href="fiona-zhou-resume.pdf">Resume</a></li>
+			<ul id="menu">
+				<a href="index.html">
+					<li>Home</li>
+				</a>
+				<a href="#">
+					<li>LinkedIn</li>
+				</a>
+				<a href="#">
+					<li>Email</li>
+				</a>
+				<a href="#">
+					<li>Contact</li>
+				</a>
+				<a href="https://github.io/fxtzhou" target="_blank">
+					<li>GitHub</li>
+				</a>
+			</ul>
+		</div>
+	</nav>
 
+	<div class="wrapper">
+		<div class="main">
+			<section class="page" id="page1">
+				<div id="landing">
+					<h1>Hey there! I'm Fiona.</h1>
 
-      </ul>
-    </nav>
-  </nav>
+					<h1>I'm an aspiring <span>UI/UX Designer</span> studying <span>Design</span> at <span>UC Davis</span>.
+        </h1>
+					<h1>Thanks for checking out my work!</h1>
+				</div>
+			</section>
 
-  <header>
-    <div id="landing">
+			<section class="page" id="page2">
+				<article style="margin: auto; width: 80%;">
+					<h1 style>Works</h1>
+					<a href="https://fxtzhou.github.io/des157/projects/final/index.html"><img src="pieces/art10.jpg" alt="art10" width="250px"></a>
+					<a href="bookdesign.html"><img src="pieces/art9.jpg" alt="art9" width="250px"></a>
+					<a href="typehier.html"><img src="pieces/art8.jpg" alt="art8" width="250px"></a>
 
-      <h1>Hey there! I'm Fiona.</h1>
+					<a href="minletter.html"><img src="pieces/art7.jpg" alt="art7" width="250px"></a>
 
-      <h1>I'm an aspiring <span class="bold">UI/UX Designer</span> studying <span class="bold">Design</span> at <span class="bold">UC Davis</span>.
-</h1>
-      <h1>Thanks for checking out my work!</h1>
-      </h1>
-    </div>
-  </header>
+					<a href="studios/studio2/index.html"><img src="pieces/art6.jpg" alt="art" width="250px"></a>
 
-  <footer style="position: fixed">
-    <a href="mailto:fxzhou@ucdavis.edu">Email</a> |
-    <a href="https://www.linkedin.com/in/fxzhou">LinkedIn</a> |
-    <a href="https://fxtzhou.github.io/des157/">Github</a> 
+					<a href="studios/studio1/index.html"><img src="pieces/art5.jpg" alt="art" width="250px"></a>
 
+					<a href="blog.html"><img src="pieces/art2.jpg" alt="art" width="250px"></a>
 
-  </footer>
+					<a href="cliteracy.html"><img src="pieces/art3.jpg" alt="art" width="250px"></a>
 
+					<a href="picasso.html"><img src="pieces/art4.jpg" alt="art" width="250px"></a>
 
+					<a href="typeposter.html"><img src="pieces/art1.jpg" alt="art" width="250px"></a>
+				</article>
+			</section>
+
+			<section class="page" id="page3">
+				<article>
+					<h1>About Me</h1>
+					<img class="profile" style="float: left" src="images/profile.png" align="center" width="40%" alt="profile" hspace="20">
+					<p>A Senior at UC Davis with a BA in Design <em>(soon)</em></p>
+
+					<p> My aspirations in UI/UX design comes from my work experience in problem solving technical issues. I believe that documenting process and intention in design is extremely important when it comes to solving problems. There's always a reason for implementing,
+						and sit's not just random! I love to explore the complexity of problems, and how improvement for good user experience can also be coupled with good design. </p>
+
+					<p>My interests also extend into the disciplines of visual communication, interactive design, mobile app design, and motion design. In my free time, I like to code side projects, play video games, and sew!
+					</p>
+				</article>
+			</section>
+
+		</div>
+	</div>
+	<script>
+		onePageScroll(".main", {
+			sectionContainer: "section",
+			loop: true,
+			responsiveFallback: false
+		});
+	</script>
 </body>
 
 </html>
