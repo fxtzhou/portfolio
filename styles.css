@@ -184,7 +184,6 @@ article {
 
 #page2 {
   margin-top: 5%;
-  overflow: hidden;
 }
 
 #landing {
@@ -273,17 +272,19 @@ footer {
 
 /*Typography */
 
-a {
-  text-decoration: none;
+h2 a{
+  color: #7d7865;
+  font-weight: 700;
 }
 
 a:visited {
   text-decoration: none;
+  font-weight: 700;
 }
 
 h1 {
   font-weight: 400;
-  font-size: 4vw;
+  font-size: 3vw;
   line-height: 1.1;
   margin-bottom: 1.5%;
 }
@@ -294,8 +295,8 @@ h1 span {
 }
 
 h2 {
-  font-weight: 600;
-  font-size: 2vw;
+  font-weight: 400;
+  font-size: 2.5vw;
 }
 
 h3 {
