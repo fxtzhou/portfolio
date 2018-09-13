@@ -178,6 +178,10 @@ section {
     height: 100vh;
   }
 
+.book img{
+  width: 100vw;
+}
+
 
 #parone{
  padding-top: 5px;

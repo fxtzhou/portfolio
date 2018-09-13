@@ -9,7 +9,6 @@
 	<link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400:600|Roboto:400:700|Rock+Salt" rel="stylesheet">
 	<script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
 	<link rel="stylesheet" href="http://anijs.github.io/lib/anicollection/anicollection.css">
-	<script type="text/javascript" src="onepagescroll.js"></script>
 	<link href='onepage-scroll.css' rel='stylesheet' type='text/css'>
 	<script src="canvasjs.min.js"></script>
 	<link href='styles.css' rel='stylesheet'>
@@ -53,24 +52,22 @@
 			</ul>
 		</div>
 	</nav>
-
-	<div class="wrapper">
-		<div class="main">
-			<section class="page" id="page1">
-				<div id="landing">
+<section>
+				<div class="one">
+					<div id="parone">
 					<h1>Hey there! I'm Fiona.</h1>
 
 					<h1>I'm a <span>UI/UX + Graphic Designer</span> with a BA from
 						<span>UC Davis</span>.
         </h1>
 					<h2>Learn more about me <a href="profile.html">here</a> or check out my work below!</h2>
+</div>
+					<img src="images/down.png" alt="down" style="width:50px; margin:auto; display:block; margin-top: 200px;">
 
-				</div>
-			</section>
+</div>
 
-			<section class="page" id="page2">
-				<article style="margin: auto; width: 80%;">
-					<h2>Works</h2>
+<section id="works">
+					<h2>Selected Works</h2>
 					<a href="queeries.html"><img src="pieces/art12.png" alt="art12" width="250px"></a>
 					<a href="makerfaire.html"><img src="pieces/art10.jpg" alt="art10" width="250px"></a>
 					<a href="healthui.html"><img src="pieces/art11.jpg" alt="art11" width="250px"></a>
@@ -82,18 +79,7 @@
 					<a href="studios/studio1/index.html"><img src="pieces/art5.jpg" alt="art"width="250px"></a>
 
 					<a href="typeposter.html"><img src="pieces/art1.jpg" alt="art" width="250px"></a>
-				</article>
-			</section>
-
-		</div>
-	</div>
-	<script>
-		onePageScroll(".main", {
-			sectionContainer: "section",
-			loop: true,
-			responsiveFallback: false
-		});
-	</script>
+</section>
 </body>
 
 </html>

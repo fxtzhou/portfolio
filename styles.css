@@ -143,11 +143,9 @@ a:hover {
   }
 }
 
-html {
-  height: 100%;
-}
 
 body {
+  background-color:
   font-family: 'Segoe UI', 'Source Sans Pro','Roboto', 'Helvetica Neue', sans-serif;
   background-color: white;
   color: #333;
@@ -172,11 +170,12 @@ body {
   margin: 0 auto;
 }
 
+
 article {
   width: 60%;
   margin: auto;
 }
-
+/*
 #page1 {
   margin-bottom: -5%;
   overflow: hidden;
@@ -189,7 +188,9 @@ article {
 #landing {
   padding: 10%;
   overflow: hidden;
-}
+} */
+
+
 
 footer {
   position: absolute;
@@ -234,40 +235,47 @@ footer {
   }
 }
 
-@keyframes scale {
-  from {
-    width: 250px;
-  }
-  to {
-    width: 300px;
-  }
+body {
+overflow-x: hidden;
+overflow-y: auto;
+  font-family: 'Segoe UI','Roboto', 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+  background-color: white;
+  color: #333;
+  position: relative;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
-.grow {
-  animation-duration: 1s;
-  animation-name: scale;
-  animation-iteration-count: infinite;
-  animation-direction: alternate;
+body {
+overflow-x: hidden;
+overflow-y: auto;
+  font-family: 'Segoe UI','Roboto', 'Source Sans Pro', 'Helvetica Neue', sans-serif;
+  background-color: white;
+  color: #333;
+  position: relative;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
 }
 
-#revealAnim img {
-  transition: transform .6s .9s;
+section {
+  width: 80%;
+  margin: auto;
+  margin-bottom: 1%;
+  margin-top: 5%;
 }
 
-.back {
-  transform: translate3d(-40%, 0, 0);
+.one{
+  height: 100vh;
+  margin-bottom: -10%;
 }
 
-.front {
-  transform: translate3d(61.6%, 0, 0);
+#parone{
+  margin-top: 10%;
 }
 
-.side {
-  transform: translate3d(-400%, 0, 0);
-}
-
-.viewing-page-3 #revealAnim img {
-  transform: translate3d(0, 0, 0);
+#works{
+  width: 75%;
+  height: 125vh;
 }
 
 /*Typography */
@@ -286,7 +294,7 @@ h1 {
   font-weight: 400;
   font-size: 3vw;
   line-height: 1.1;
-  margin-bottom: 1.5%;
+  margin-bottom: 2%;
 }
 
 h1 span {
