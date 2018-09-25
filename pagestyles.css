@@ -121,7 +121,6 @@ a:hover {
   transform: none;
 }
 
-
 .arrow {
   text-align: center;
   bottom: 75px;
@@ -166,6 +165,18 @@ section {
   height: 100vh;
   margin-bottom: -4%;
 }
+
+.two{
+  vertical-align: middle;
+  height: 100vh;
+
+}
+
+.three
+  {
+    vertical-align: middle;
+    height: 100vh;
+  }
 
 .book img{
   width: 100vw;
@@ -366,12 +377,8 @@ img {
   width: 35%;
 }
 
-.poster{
+#typeposter{
   width: 50%;
-}
-
-.roughs{
-  width: 90%;
 }
 
 }
