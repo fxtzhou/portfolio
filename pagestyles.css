@@ -121,6 +121,7 @@ a:hover {
   transform: none;
 }
 
+
 .arrow {
   text-align: center;
   bottom: 75px;
@@ -165,18 +166,6 @@ section {
   height: 100vh;
   margin-bottom: -4%;
 }
-
-.two{
-  vertical-align: middle;
-  height: 100vh;
-
-}
-
-.three
-  {
-    vertical-align: middle;
-    height: 100vh;
-  }
 
 .book img{
   width: 100vw;
@@ -335,4 +324,54 @@ p {
   font-size: 1.25vw;
   line-height: 1.5;
   margin-bottom: 2%;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+
+img {
+  width: 100%;
+}
+.one{
+height: 60vh;
+}
+
+.one p{
+  font-size: 3vw;
+}
+
+.one h2{
+  font-size: 5vw;
+}
+
+.one h4{
+  font-size: 4vw;
+}
+
+.one h5{
+  font-size: 2vw;
+}
+
+img {
+  width: 100%;
+  float: left;
+}
+
+.profile{
+  margin-top: 10%;
+}
+
+.profile img{
+  width: 35%;
+}
+
+.poster{
+  width: 50%;
+}
+
+.roughs{
+  width: 90%;
+}
+
 }

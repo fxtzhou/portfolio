@@ -264,6 +264,11 @@ section {
   margin-top: 5%;
 }
 
+#intro img{
+  margin:auto;
+  display: block;
+}
+
 .one{
   height: 100vh;
   margin-bottom: -10%;
@@ -322,4 +327,38 @@ h3 span {
 p {
   font-size: 1.5vw;
   line-height: 1.5;
+}
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+/* Styles */
+#intro{
+  margin-top: 25%;
+}
+
+#works {
+  height: 100vh;
+}
+
+.one{
+  height: 30vh;
+}
+
+#intro img{
+  display: none;
+}
+
+img {
+  width: 125px;
+  float: left;
+  margin: 5px;
+}
+
+h1{
+  font-size: 5vw;
+}
+
+h2{
+  font-size: 4.5vw;
+}
 }
